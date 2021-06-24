@@ -6,7 +6,7 @@ This is an Android demo for services, Ringtone, and notifications including:
  * Communicating between IntentService and Activity using Intent
  * Using Ringtone
  
- <img src="https://i.imgur.com/icMTO77.png" width="250" height="359" />&nbsp;
+ <img src="https://i.imgur.com/icMTO77.png" width="250" height="500" />&nbsp;
  
  ## Use Cases
 
