@@ -18,10 +18,8 @@ class MainActivity : AppCompatActivity() {
     fun start(view: View) {
         val startIntent =Intent(this,AlarmService::class.java)
         startIntent.action = "Start"
-        if (Build.VERSION.SDK_INT>Build.VERSION_CODES.O){
-            startForegroundService(startIntent)
-        }else{
+
             startService(startIntent)
-        }
+
     }
 }
