@@ -44,8 +44,6 @@ class AlarmService : Service() {
                 stopAlarm()
             }
         }
-
-
         return START_STICKY
 
     }
